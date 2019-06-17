@@ -47,7 +47,7 @@ function calcRoute(){
         map.setCenter(myLatLng);
         
         //show error message
-        $("#output").html("<div class='alert-danger'>Could not retrieve driving distance.</div>");
+        $("#output").html("<div class='alert-danger'>Could not retrieve driving distance.Please try again later,as only few successful attempts are allowed per day with my api. </div>");
     }
     });
 
